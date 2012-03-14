@@ -31,6 +31,7 @@ module Uploadcare
 		
 		def keep
 			@file_info = @ucare.make_request('POST', api_uri, {'keep' => 1}).parsed_response
+			url
 		end
 	end
 end
