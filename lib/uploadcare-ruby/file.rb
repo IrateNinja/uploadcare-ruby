@@ -8,7 +8,7 @@ module Uploadcare
 		end
 		
 		def api_uri
-			"/files/#{@file_id}"
+			"/files/#{@file_id}/"
 		end
 
 		def update_info
